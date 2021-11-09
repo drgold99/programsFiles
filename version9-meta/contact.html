@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is where you can contact Path of Light Yoga Studio.">
+    <title>Classes</title>
+</head>
+<body>
+        <header class="home">
+            <h1><a href="index.html"> Path of Light Yoga Studio</a></h1>
+        </header> 
+       <nav>
+            <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="classes.html">Classes</a></li>
+                 <li><a href="schedule.html">Schedule</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="store.html">Store</a></li>
+            </ul>
+       </nav>
+       <div id="wrapper">
+        <main>
+            <h2>Contact Path of Light Yoga Studio</h2>
+            <p>Fill out the from below to contact Path of Light Yoga Studio. All information is required.</p>
+            <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+                <label for="myName">Name:</label>
+                <input id="myName" placeholder="Your name please" type="text" required>
+                <label for="myEmail">E-mail:</label>
+                <input id="myEmail" placeholder="Your email please" type="email" required>
+                <label for="myRefer">How did you hear about us?:</label>
+                <input id="myRefer" type="text" list="referral">
+                <datalist id="referral">
+                    <option value="Google">
+                    <option value="Faceboke">
+                    <option value="Friend">
+                    <option value="Radio Ad">
+                </datalist>
+                <label for="myComments">Comments:</label>
+                <textarea id="myComments" rows="2" cols="20" placeholder="" required></textarea>
+                <button id="mySubmit">Send Now</button>
+            </form>
+        </main>
+        <footer>
+            Copyright © 2020 Path of Light Yoga Studio<br>
+            <a href="mailto:bryce.kapp@evsck12.com">bryce.kapp@evsck12.com</a>
+        </footer>
+    </div>
+</body>
+</html>
